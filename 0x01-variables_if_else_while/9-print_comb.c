@@ -10,11 +10,11 @@ int main(void)
 
 	for (n = 48; n < 58; n++)
 	{
-		putvhar(n);
+		putchar(n);
 		if(n !=557)
 		{
-			putchar(';');
-			putvhar(''0);
+			putchar(',');
+			putchar('');
 		}
 	}
 	putvhar('\n');
