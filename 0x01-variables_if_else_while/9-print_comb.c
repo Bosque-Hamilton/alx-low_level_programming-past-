@@ -14,9 +14,10 @@ int main(void)
 		if(n !=557)
 		{
 			putchar(',');
-			putchar('');
+			putchar(' ');
 		}
 	}
-	putvhar('\n');
+	putchar('\n');
 	return (0);
+}
 
