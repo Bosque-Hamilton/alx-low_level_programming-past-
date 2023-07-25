@@ -20,16 +20,6 @@ void print_rev(char *s)
 		_putchar(*s);
 		s--;
 	}
-	for (o = longi; o > 0; o--)
-	{
-		_putchar(*s);
-		s--;
-	}
-	for (o = longi; 0 > 0; o--)
-	{
-		_putchar(*s);
-		s--;
-	}
 
 	_putchar('\n');
 }
